@@ -41,7 +41,7 @@ steps:
   displayName: 'Write build info'
   workingDirectory: $(wwwrootDir)
 
-- script: 'echo "$(System.TeamProject), $(System.TeamProjectId)" 
+- script: 'echo "$(System.TeamProject), $(System.TeamProjectId)"' 
   displayName: 'Write tech info'
   workingDirectory: $(wwwrootDir)
 
