@@ -52,7 +52,6 @@ steps:
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
     vstsFeed: '$(System.TeamProjectId)/Tailspin.SpaceGame.Web.Models'
-    #https://pkgs.dev.azure.com/ers0680/Space%20Game%20-%20web%20-%20Multistage/_packaging/Tailspin.SpaceGame.Web.Models/nuget/v3/index.json
 
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - $(buildConfiguration)'
